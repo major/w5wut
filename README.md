@@ -1,2 +1,3 @@
 # w5wut
-Web site for my radio callsign W5WUT
+
+Hugo content for the [w5wut.com](https://w5wut.com/) website.
