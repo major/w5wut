@@ -1,0 +1,45 @@
+title = "W5WUT"
+baseURL = "https://w5wut.com"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+
+[params]
+  author = "Major Hayden"
+  description = "Home of amateur radio station W5WUT"
+  favicon = "/radio_emoji.png"  # path to a .ico to use as favicon
+  logo = "/radio_emoji.png"
+  [params.footer]
+    text = "By Olivier Roques"
+    url = "https://github.com/ojroques/hugo-researcher"
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+  [[params.socialIcons]]
+    icon = "fab fa-twitter"
+    title = "Twitter"
+    url = "https://twitter.com/majorhayden"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:major@mhtx.net"
+  [[params.socialIcons]]
+    icon = "fas fa-broadcast-tower"
+    title = "E-mail"
+    url = "https://www.qrz.com/db/w5wut"
+
+[permalinks]
+  "/" = "/:filename"
+
+#[menu]
+#  [[menu.main]]
+#    name = "About"
+#    url = "/about"
+#    weight = 1
+#  [[menu.main]]
+#    name = "Contact"
+#    url = "/contact"
+#    weight = 3
